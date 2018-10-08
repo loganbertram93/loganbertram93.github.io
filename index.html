@@ -1,31 +1,113 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Logan's Portfolio</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href='style.css'>
-</head>
-<title>CSS Example</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body>
-    <h1 style="color:rgb(51, 88, 48)">Logan Bertram</h1>
+    <title>Logan's Portfolio</title>
 
-    <h2>Student at OSU Cascades</h2>
-    
-    <p>This is going to be my online portfolio for CS 160. I currently am a part of Grace Bible Church of Redmond, and work at Trader Joe's.</p>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
 
-    <a href="https://github.com/loganbertram93">GitHub</a>
+  <body>
 
-    <a href="">Resume</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-    <img src="https://media2.fdncms.com/memphisflyer/imager/u/original/15719807/trader-joes-logo.png" alt="Trader Joes" style="width:200px;height:200px;">
+    <main role="main">
 
-    <img src="https://i2.wp.com/gracebibleofbend.org/wp-content/uploads/2017/05/GBC-Redmond-Square.jpg.jpg" alt="GBC Redmond" style="width:200px;height:200px;">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Logan Bertram</h1>
+          <p>This is going to be my online portfolio for CS 160. I am a student at OSU Cascades. I am a part of Grace Bible Church of Redmond, and work at Trader Joe's.</p>
+          <p><a class="btn btn-primary btn-lg" href="https://github.com/loganbertram93" role="button">GitHub &raquo;</a></p>
+        </div>
+      </div>
 
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Resume</h2>
+            <p>I am interested in gaining experience in more public school classroom settings. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Zagster Use in Bend</h2>
+            <p> Description of project here. (TBD) </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Cleveland Sports</h2>
+            <p> A life long, suffering Cleveland sports fan from the Pacific Northwest. Goodbye LeBron, Hello Baker.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
 
-    <img src="https://osucascades.mycollegeroomie.com/sites/all/themes/mcr_origins/logo.png" alt="OSU Cascades" style="width:300px;height:100px;">
+        <hr>
 
-</body>
+      </div> <!-- /container -->
+  
+      <a href="https://github.com/loganbertram93">GitHub</a>
+  
+      <a href="">Resume</a>
+  
+  
+      <img src="https://media2.fdncms.com/memphisflyer/imager/u/original/15719807/trader-joes-logo.png" alt="Trader Joes" style="width:200px;height:200px;">
+  
+      <img src="https://i2.wp.com/gracebibleofbend.org/wp-content/uploads/2017/05/GBC-Redmond-Square.jpg.jpg" alt="GBC Redmond" style="width:200px;height:200px;">
+  
+  
+      <img src="https://osucascades.mycollegeroomie.com/sites/all/themes/mcr_origins/logo.png" alt="OSU Cascades" style="width:300px;height:100px;">
+      
+    </main>
+
+    <footer class="container">
+      <p>&copy; Company 2017-2018</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
